@@ -1,0 +1,190 @@
+body{
+    background: #F5F6F7;
+}
+.navbarlogo{
+ 
+    font-size: 25px;
+    font-weight: 700;
+
+}   
+
+
+.sliderOpacity{
+    background: rgba(0, 0, 0, 0.5);
+ 
+}
+.image1{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url(./images/alt2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.image2{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url(./images/hero-carousel-4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.image3{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)
+      ),url(./images/hero-carousel-5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.head{
+    margin-top: 15%;
+}
+
+.head h2 {
+    font-size: 30;
+    line-height: 1.5;
+    position: absolute;
+    color: white;
+}
+
+.para{
+    font-size: 30;
+    line-height: 1.5;
+    position: absolute;
+    color: white;
+}
+
+.buttonn{
+    font-size: 30;
+    line-height: 1.5;
+    position: absolute;
+    color: white;
+}
+
+.welcomehead{
+    font-size: 56px;
+    color: white;
+    
+}
+
+.welcome{
+    padding-bottom:30px ;
+
+}
+
+.welcommhead{
+    text-align: center!important;
+}
+
+.border{
+    border-bottom: 3px solid #feb900!important;
+    width: 10%;
+    
+}
+
+.Modisit{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Modisit:hover{
+
+    color: #feb900;
+
+}
+
+
+
+.Praesenti{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Praesenti:hover{
+
+    color: #feb900;
+
+}
+
+
+
+
+.Explica{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Explica:hover{
+
+    color: #feb900;
+
+}
+
+
+
+
+.Nostrum{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.Nostrum:hover{
+
+    color: #feb900;
+
+}
+
+.saul{
+    width: 15vh;
+    height: 15vh;
+    
+}
+
+.footerimg{
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8),
+        rgba(0, 0, 0, 0.8)
+      ),url(/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+.liststyle{
+    list-style: none;
+}
+
+.footerline{
+    border-bottom: 1px solid grey;
+}
+
+.scrollbtn{
+
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 50px;
+    right: 50px;
+}
+
+
+@media (max-width: 567px) and (min-width: 480px) { 
+
+    .collapse{
+        transition: 1s;
+        background: rgba(0, 0, 0, 0.8);
+    }
+    .navul{
+        padding: 15px 15px;
+    }
+
+}
